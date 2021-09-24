@@ -1,0 +1,48 @@
+body {
+  background: #efecca;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: #c03000;
+}
+
+h2 {
+  color: #4bb5c1;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  border: solid 2px #660000;
+  background: #c03000;
+  padding: 1em;
+  margin: 0 0.5em;
+}
+
+nav a:first-child {
+  margin: 0 0.5em 0 0;
+}
+
+nav a:last-child {
+  margin: 0 0 0 0.5em;
+}
+
+nav a:hover,
+nav a:focus {
+  background: #009900;
+}
+
+a {
+  color: #0000ff;
+  text-decoration: none;
+}
