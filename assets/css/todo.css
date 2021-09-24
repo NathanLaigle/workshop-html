@@ -1,0 +1,38 @@
+body {
+  background: #000099;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+ul {
+  padding: 2em 10em;
+}
+
+li {
+  padding: 10px;
+  list-style: none;
+  border-radius: 5px;
+  background: white;
+  margin: 0.5em 0;
+}
+
+li:first-child {
+  margin: 0 0 0.5em 0;
+}
+
+li:last-child {
+  margin: 0.5em 0 0 0;
+}
+
+input {
+  border-radius: 8px;
+  padding: 1em;
+}
+
+input[type='submit'] {
+  border-radius: 3px;
+}
